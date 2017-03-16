@@ -1,0 +1,5 @@
+#title:before {
+	content: "\f10d";
+    font-family: FontAwesome;
+    padding-right: 5px;
+}

@@ -1,17 +1,46 @@
-#title:before {
-	content: "\f10d";
-    font-family: FontAwesome;
-    padding-right: 5px;
+/*
+font-family: 'Roboto', sans-serif; -> Font for text
+font-family: 'Raleway', sans-serif; -> Font for headings
+*/
+
+html, body {
+	font-family: 'Roboto', sans-serif;
 }
 
-.container-fluid {
-	height: 100vh;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
 }
 
-#heading {
+.title {
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-head {
+	width: 100%;
 	text-align: center;
-	height: 200px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+
+.accent {
+	color: #00c4a7;
+}
+
+.bg-accent {
+	background-color: #00c4a7;
+}
+
+.quote-container {
+	width: 100%;
+	padding: 30px;
+	border: 1px solid #00c4a7;
+}
+
+#head-title:before {
+	font-family: FontAwesome;
+	content: "\f10d";
+}
+
+#quoteButton {
+	margin-top: 10px;
 }

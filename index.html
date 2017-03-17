@@ -6,43 +6,38 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+	<!-- Bulma CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bulma.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<!-- Custom Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="wrapper">
 
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<div id="heading">
-					<h2>Random Quote Engine</h2>
-				</div>
-			</div>
+		<div class="main-head">
+			<h1 class="title is-1 accent" id="head-title">Quengine</h1>
 		</div>
 
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<div class="panel-title" id="title"></div>
+		<section class="hero is-fullheight">
+			<div class="hero-body">
+				<div class="columns" style="width: 100%;padding-left: 18px;">
+					<div class="quote-container column is-half is-offset-one-quarter">
+						<h3 class="title is-3" id="title"></h3>
+						<div id="content"></div>
+						<div id="link"></div>
 					</div>
-					<div class="panel-body" id="content"></div>
-					<div class="panel-footer" id="link"></div>
+					<a class="button is-primary" onclick="getQuote()" id="quoteButton">New Quote</a>
 				</div>
-				<button type="button" class="btn btn-info" onclick="getQuote()">Next Quote</button>
 			</div>
-		</div>
+		</section>
+
 	</div>
 
 	<!-- jquery -->
 	<script src="js/jquery-3.1.1.min.js"></script>
-	<!-- Bootstrap js -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- App.js -->
 	<script src="js/app.js"></script>
 </body>

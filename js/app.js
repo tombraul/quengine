@@ -21,4 +21,6 @@ function getQuote () {
 	});
 }
 
-getQuote();
+jQuery(document).ready(function($) {
+  getQuote();
+});

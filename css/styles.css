@@ -36,6 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #00c4a7;
 }
 
+#head-subtitle {
+	background-color: #00c4a7;
+	color: white;
+}
+
 #head-title:before {
 	font-family: FontAwesome;
 	content: "\f10d";

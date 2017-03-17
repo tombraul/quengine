@@ -42,3 +42,14 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 	font-family: FontAwesome;
 	content: "\f10d";
 }
+
+#link {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+#content {
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Lora', serif;
+	font-size: 2.0em;
+}

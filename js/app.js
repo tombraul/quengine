@@ -10,9 +10,8 @@ function getQuote () {
       url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',
       success: function(data) {
         var quote = data[0];
-        title.innerHTML = quote.title;
         content.innerHTML = quote.content;
-        link.innerHTML = '<a href="' + quote.link + '">Source</a>';
+        link.innerHTML = '<a href="' + quote.link + '">by ' + quote.title; + '</a>';
 
         var buttonClasses = quoteButton.classList.toString();
         quoteButton.classList = buttonClasses.replace('is-loading', '');

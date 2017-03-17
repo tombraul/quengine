@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 	min-height: 180px;
 	padding: 30px;
 	border: 1px solid #00c4a7;
+	margin-bottom: 300px;
+}
+
+.hero-body {
+	padding-top: 200px;
 }
 
 #head-subtitle {
@@ -46,6 +51,7 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 #link {
 	font-size: 1.2em;
 	font-style: italic;
+	padding: 10px 5px 15px;
 }
 
 #content {

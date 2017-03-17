@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .quote-container {
 	width: 100%;
+	min-height: 180px;
 	padding: 30px;
 	border: 1px solid #00c4a7;
 }
@@ -44,8 +45,4 @@ h1, h2, h3, h4, h5, h6 {
 #head-title:before {
 	font-family: FontAwesome;
 	content: "\f10d";
-}
-
-#quoteButton {
-	margin-top: 10px;
 }

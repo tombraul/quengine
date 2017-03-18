@@ -15,7 +15,8 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 	width: 100%;
 	text-align: center;
 	position: relative;
-	top: 100px;
+	top: 80px;
+	background-color: white;
 }
 
 .accent {
@@ -32,11 +33,15 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 	padding: 30px;
 	border: 1px solid #00c4a7;
 	margin-bottom: 300px;
+	background-color: white;
 }
 
 .hero-body {
 	padding-top: 200px;
+	background-image: url("/img/geometry.png");
+	background-repeat: repeat;
 }
+
 
 #head-subtitle {
 	background-color: #00c4a7;

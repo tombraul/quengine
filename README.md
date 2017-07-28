@@ -11,3 +11,6 @@ Happy Hacking!
 |Icons|FontAwesome|
 |JS Library|jQuery 3|
 |API|[QuotesOnDesign](https://quotesondesign.com/api-v4-0/)|
+
+## TODO:
+ - [ ] Use the production version of bulma.css
